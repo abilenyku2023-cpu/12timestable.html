@@ -2,23 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Multiplication Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication Table</title>
   </head>
   <body>
     <h1>Twelve Times Table</h1>
-	<p id="equation"></p>
-	
-	<script>
-	   const multilicand = 12;
-	   let product = 0;
-	   let equation = "";
-	   
-	   for (let i = 1; i <= 12; i++) {
-	    product = multiplicand * i;
-		equation += multiplicand + " * " + i + "=" + prodct + "<br>";
-	   }
-	   document.getElementById("equation").innerHTML = equation;
-	  </script>
-	 </body>
-	</html>
+    <p id="equation"></p>
+
+    <script>
+      const multiplicand = 12;
+      let product = 0;
+      let equation = "";
+
+      for (let i = 1; i <= 12; i++) {
+        product = multiplicand * i;
+        equation += multiplicand + " * " + i + "=" + product + "<br>";
+      }
+      document.getElementById("equation").innerHTML = equation;
+    </script>
+  </body>
+</html>
